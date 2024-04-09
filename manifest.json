@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "antiHoneypot2",
+    "version": "1.0",
+    "description": "一个简单的蜜罐Chrome插件",
+    "permissions": ["tabs", "<all_urls>"],
+    "background": {
+        "page": ["background.html"]
+    },
+    "browser_action": {
+        "default_icon": "icon/icon32b.png",
+        "default_popup": "popup.html"
+    }
+}
